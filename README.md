@@ -45,3 +45,17 @@ These advanced features and capabilities enable you to build more robust and fle
 You can further customize and extend these applications to meet your specific requirements, such as implementing **custom message processing logic**,
 
 adding **authentication and authorization**, or **integrating with other Azure services**
+
+## 1. Create Azure ServiceBus (queue)
+ 
+## 2. Create a .NET8 WebAPI with VSCode
+
+## 3. Load project dependencies
+
+## 4. Create the project structure
+
+## 5. Create the Controller
+
+## 6. Modify the application middleware(program.cs)
+
+## 7. Run and Test the application
