@@ -30,11 +30,11 @@ The **ServiceBusProcessorOptions** class provides several configuration options 
 
 -**ReceiveMode**: Specifies the receive mode for messages, either PeekLock (the default) or ReceiveAndDelete
 
-The PeekLock mode allows for at-least-once message processing, while the ReceiveAndDelete mode provides simpler, but less reliable, message processing
+The **PeekLock mode** allows for at-least-once message processing, while the **ReceiveAndDelete mode** provides simpler, but less reliable, message processing
 
 **Error handling**: The receiver application includes an error handling mechanism to handle any exceptions or errors that occur during message processing
 
-The ErrorHandler method is called when an error occurs, allowing you to log the error details, implement retry policies, or perform other error handling actions
+The **ErrorHandler** method is called when an error occurs, allowing you to log the error details, implement retry policies, or perform other error handling actions
 
 **Swagger integration**: Both applications include Swagger (OpenAPI) integration for easy API documentation and testing
 
