@@ -22,13 +22,13 @@ This feature can be useful for implementing delayed processing or time-based wor
 
 The **ServiceBusProcessorOptions** class provides several configuration options to control how messages are processed, such as:
 
-**AutoCompleteMessages**: Automatically completes messages after they are processed, indicating that they should be removed from the queue
+-**AutoCompleteMessages**: Automatically completes messages after they are processed, indicating that they should be removed from the queue
 
-**MaxConcurrentCalls**: Specifies the maximum number of concurrent message processing tasks. This can be useful for controlling the processing throughput and resource usage
+-**MaxConcurrentCalls**: Specifies the maximum number of concurrent message processing tasks. This can be useful for controlling the processing throughput and resource usage
 
-**PrefetchCount**: Specifies the number of messages that should be prefetched and cached locally for faster processing
+-**PrefetchCount**: Specifies the number of messages that should be prefetched and cached locally for faster processing
 
-**ReceiveMode**: Specifies the receive mode for messages, either PeekLock (the default) or ReceiveAndDelete
+-**ReceiveMode**: Specifies the receive mode for messages, either PeekLock (the default) or ReceiveAndDelete
 
 The PeekLock mode allows for at-least-once message processing, while the ReceiveAndDelete mode provides simpler, but less reliable, message processing
 
