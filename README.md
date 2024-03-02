@@ -107,7 +107,7 @@ Navigate to the directory where you want to create your new project
 Run the following command to create a new Web API project:
 
 ```
-dotnet new webapi -n ServiceBusReceiverApi
+dotnet new webapi -n ServiceBusSenderApi
 ```
 
 This command creates a new directory with the project name, sets up a basic Web API project structure, and restores any necessary packages
