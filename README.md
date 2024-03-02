@@ -1,5 +1,9 @@
 # How to create .NET8 WebAPI for sending messages to Azure ServiceBus (Advance sample)
 
+Source code for this sample in this github repo: 
+
+https://github.com/luiscoco/Azure_ServiceBus_with_dotNET8_WebAPI_producer_advance_sample
+
 The provided applications demonstrate some **advanced** features and capabilities of Azure Service Bus
 
 Here's an overview of these features:
